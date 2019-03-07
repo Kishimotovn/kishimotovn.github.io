@@ -226,6 +226,7 @@ function Logout() {
         var paging_next = feed_response.paging.next
         getDataForPage(table, doneCallback, paging_next, pageInfo, pageCount)
       }
+    })
   }
 
   var myConnector = tableau.makeConnector();
